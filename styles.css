@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #faf4ed;
+  color: #575279;
+  display: flex;
+  align-items: center;
+  /* text-decoration: underline; */
+  margin-top: 12px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  /* border: 1px solid rebeccapurple; */
+  /* width: 500px;
+  height: 400px; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.grid {
+  /* outline: 0.2px solid rebeccapurple; */
+  padding: 10px;
+  background-color: #9893a5;
+  flex: 1;
+}
+
+.hover {
+  background-color: #56949f;
+}
+
+.userInput {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addBtn,
+.removeBtn {
+  padding: 5px 30px;
+  background-color: #907aa9;
+  color: #faf4ed;
+  border: 1px solid #faf4ed;
+  border-radius: 122px;
+}
+.section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input {
+  outline: none;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #faf4ed;
+  color: #575279;
+  width: 40vh;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
