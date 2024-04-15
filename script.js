@@ -1,11 +1,3 @@
-/*
-<div class="grid">
-  <div class="row">
-    <div class="box"></div>
-  </div>
-</div>;
-*/
-
 let grid = document.querySelector(".grid");
 let number;
 let addBtn = document.querySelector(".addBtn");
